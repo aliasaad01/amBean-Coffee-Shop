@@ -1,73 +1,98 @@
-# React + TypeScript + Vite
+# 🚀 amBean Coffee Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**amBean** is a modern and responsive coffee store designed for a smooth and enjoyable user experience. It features a clean interface, product browsing, cart functionality, a virtual checkout, and dedicated About & Contact pages.
+This project showcases my skills, projects, and experience with a clean UI, smooth animations, and modern design principles.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+🔗 https://ambean-coffee-shop.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Browse products and add them to the cart
+- Fully responsive design
+- Smooth animations with Framer Motion
+- Virtual checkout with a user input form
+- About page showcasing team, process steps, and company numbers
+- Contact page with a send message form and toast notifications
+- Dark mode support
+- Temporary cart storage via Local Storage
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📸 Screenshots
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ![Hero Section](public/images/amBean-home.png)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Technologies Used
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **React.js + TypeScript**
+- **Vite** as the build tool
+- **Tailwind CSS** for fast and responsive styling
+- **Framer Motion** for animations
+- **React Router** for page navigation
+- **React Hot Toast** for quick notifications
+- **Local Storage** to store cart items temporarily
+- **Vercel** for hosting and deployment
+
+---
+
+## 📂 Project Structure
+
+````txt
+amBean/
+├─ src/
+│ ├─ components/
+│ │ ├─ about/ # AboutHero, AboutProcess, AboutTeam, AboutNumbers ...
+│ │ ├─ cart/ # CartDrawer
+│ │ ├─ checkout/ # CheckoutForm ...
+│ │ ├─ contact/ # ContactForm ...
+│ │ ├─ layout/ # Footer, Navbar
+│ │ ├─ product/ # ProductModal, ProductItem
+│ │ ├─ shop/ # ShopSidebar
+│ │ ├─ ui/ # Container
+│ │ ├─ routes/ # AppRoutes
+│ │ └─ sections/ # Products ...
+│ │
+│ ├─ context/ # CartContext
+│ ├─ data/ # Product data
+│ ├─ hooks/ # useTheme
+│ ├─ layouts/ # MainLayout
+│ ├─ pages/ # Home.tsx, Shop.tsx, About.tsx, Contact.tsx, Checkout.tsx
+│ └─ App.tsx
+│
+├─ public/
+├─ package.json
+└─ README.md
+
+---
+
+## 💻 Running Locally
+
+1. Clone the repository:
+```bash
+
+git clone https://github.com/<username>/amBean.git
+cd amBean
+
+npm install
+npm run dev
+
+---
+````
+
+## 👨‍💻 Author
+
+**Ali Asaad**
+
+Front-End Developer | React.js
+
+- GitHub: [https://github.com/aliasaad01](https://github.com/aliasaad01)
+
+- ⭐ If you like this project, give it a star!
