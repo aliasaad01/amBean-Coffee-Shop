@@ -15,17 +15,30 @@ const CheckoutSummary = () => {
       <div className="flex flex-col gap-4">
         {items.map((item) => (
           <div key={item.id} className="flex justify-between text-sm">
-            <span className="text-green-400 font-semibold">
-              {item.name} {item.quantity} x{" "}
-              {Number(item.price.replace(/[^0-9.]/g, ""))}
-            </span>
+            <div className="flex items-center gap-4">
+              <div className="rounded-lg">
+                <img
+                  src={item.image}
+                  alt={item.image}
+                  className="w-14 h-14 inline-block rounded-lg"
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <span className="font-semibold text-base">{item.name}</span>
+                <span className="text-gray-400 dark:text-gray-500">
+                  {item.quantity} x $
+                  {Number(item.price.replace(/[^0-9.]/g, ""))}
+                </span>
+              </div>
+            </div>
             <span>
               ${item.quantity * Number(item.price.replace(/[^0-9.]/g, ""))}
             </span>
           </div>
         ))}
         <div className="flex justify-between text-sm">
-          <span className="text-green-400 font-semibold">Fee</span>
+          <span className="text-red-500 font-semibold">Fee</span>
           <span>$5.00</span>
         </div>
       </div>
