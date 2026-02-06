@@ -89,7 +89,7 @@ export const products: Product[] = [
     id: "1",
     name: "Espresso Shot",
     price: "$4.50",
-    image: "public/images/espresso-shot.jpg",
+    image: "/images/espresso-shot.jpg",
     category: "coffee",
     featured: true,
     description:
