@@ -16,9 +16,12 @@ const CheckoutSummary = () => {
         {items.map((item) => (
           <div key={item.id} className="flex justify-between text-sm">
             <span className="text-green-400 font-semibold">
-              {item.name} × {item.quantity}
+              {item.name} {item.quantity} x{" "}
+              {Number(item.price.replace(/[^0-9.]/g, ""))}
             </span>
-            <span>${total.toFixed(2)}</span>
+            <span>
+              ${item.quantity * Number(item.price.replace(/[^0-9.]/g, ""))}
+            </span>
           </div>
         ))}
         <div className="flex justify-between text-sm">
