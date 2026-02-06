@@ -23,13 +23,13 @@ const CheckoutSummary = () => {
         ))}
         <div className="flex justify-between text-sm">
           <span className="text-green-400 font-semibold">Fee</span>
-          <span>$15.00</span>
+          <span>$5.00</span>
         </div>
       </div>
 
       <div className="border-t mt-6 pt-4 flex justify-between font-semibold">
         <span>Total</span>
-        <span>${(total + 15).toFixed(2)}</span>
+        <span>${(total + 5).toFixed(2)}</span>
       </div>
     </div>
   );
