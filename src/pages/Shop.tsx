@@ -7,7 +7,7 @@ import ProductItem from "../components/product/ProductItem";
 import ProductModal from "../components/product/ProductModal";
 import { motion } from "framer-motion";
 
-const categories = ["all", "coffee", "tea", "muffin", "milk"];
+const categories = ["all", "coffee", "tea", "muffin", "milk", "ice tea"];
 
 const containerVariants = {
   hidden: {},

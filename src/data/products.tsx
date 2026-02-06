@@ -3,7 +3,7 @@ export type Product = {
   name: string;
   price: string;
   image: string;
-  category?: "coffee" | "tea" | "muffin" | "milk";
+  category?: "coffee" | "tea" | "muffin" | "milk" | "ice tea";
   featured?: boolean;
   description?: string;
 };
@@ -68,6 +68,15 @@ export const products: Product[] = [
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
   {
+    id: "7",
+    name: "Loose Leaf Tea",
+    price: "$4.50",
+    image: "/images/loose-leaf-tea.jpg",
+    category: "tea",
+    description:
+      "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
+  },
+  {
     id: "3",
     name: "Latte",
     price: "$5.50",
@@ -105,15 +114,6 @@ export const products: Product[] = [
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
   {
-    id: "7",
-    name: "Loose Leaf Tea",
-    price: "$4.50",
-    image: "/images/loose-leaf-tea.jpg",
-    category: "tea",
-    description:
-      "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
-  },
-  {
     id: "8",
     name: "Ice Latte Hazelnut",
     price: "$3.75",
@@ -124,10 +124,46 @@ export const products: Product[] = [
   },
   {
     id: "10",
-    name: "Ice Latte Varamel",
+    name: "Ice Latte Caramel",
     price: "$5.25",
     image: "/images/ice-latte-caramel.JPG",
     category: "coffee",
+    description:
+      "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
+  },
+  {
+    id: "16",
+    name: "Frappuccino Chocolate",
+    price: "$5.50",
+    image: "/images/frappuccino-chocolate.JPG",
+    category: "coffee",
+    description:
+      "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
+  },
+  {
+    id: "17",
+    name: "frappuccino-strawberry-vanilla",
+    price: "$5.49",
+    image: "/images/frappuccino-strawberry-vanilla.JPG",
+    category: "coffee",
+    description:
+      "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
+  },
+  {
+    id: "18",
+    name: "Ice Tea Lemonade Passion",
+    price: "$5.49",
+    image: "/images/ice-tea-lemonade-passion.JPG",
+    category: "ice tea",
+    description:
+      "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
+  },
+  {
+    id: "19",
+    name: "Ice Tea Lemonade",
+    price: "$5.49",
+    image: "/images/ice-tea-lemonade.JPG",
+    category: "ice tea",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
