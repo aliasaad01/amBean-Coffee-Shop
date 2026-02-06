@@ -122,7 +122,7 @@ const CartDrawer = () => {
                       Total
                     </span>
                     <span className="text-lg font-semibold">
-                      ${total.toFixed(2)}
+                      ${(5 + total).toFixed(2)}
                     </span>
                   </div>
                 </div>
