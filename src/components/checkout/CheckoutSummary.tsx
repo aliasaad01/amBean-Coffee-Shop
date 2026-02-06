@@ -14,7 +14,10 @@ const CheckoutSummary = () => {
 
       <div className="flex flex-col gap-4">
         {items.map((item) => (
-          <div key={item.id} className="flex justify-between text-sm">
+          <div
+            key={item.id}
+            className="flex justify-between items-center text-sm"
+          >
             <div className="flex items-center gap-4">
               <div className="rounded-lg">
                 <img
