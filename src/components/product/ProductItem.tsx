@@ -49,9 +49,9 @@ const ProductItem = ({ onClick, product, variant = "card" }: Props) => {
           e.stopPropagation();
           setFavorite((p) => !p);
         }}
-        className={`absolute top-3 right-3 z-10 text-white rounded-full p-1 transition-all
-          hover:bg-red-500 hover:scale-110
-          ${favorite ? "bg-red-500" : ""}`}
+        className={`absolute top-3 right-3 z-10 text-red-500 rounded-full p-1 transition-all
+          hover:bg-red-500 hover:text-white hover:scale-110
+          ${favorite ? "bg-red-500 text-white" : ""}`}
       >
         <Heart size={20} />
       </button>

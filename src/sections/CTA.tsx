@@ -57,7 +57,7 @@ const CTA = () => {
             </button>
           </motion.div>
 
-          {/* Right content: صورة المنتج */}
+          {/* Right content */}
           <motion.div variants={itemVariants} className="flex justify-center">
             <div className="relative h-80 w-80 md:h-96 md:w-96 overflow-hidden rounded-2xl shadow-lg">
               <img
@@ -68,12 +68,13 @@ const CTA = () => {
 
               {/* Favorite Heart */}
               <button
-                onClick={() => {
+                onClick={(e) => {
+                  e.stopPropagation();
                   setFavorite((prev) => !prev);
                 }}
-                className={`absolute top-3 right-3 z-10 text-white hover:bg-red-500 transition-all duration-300 rounded-full p-1 flex items-center justify-center
-                            hover:scale-110
-                            ${favorite ? "bg-red-500" : ""}`}
+                className={`absolute top-3 right-3 z-10 text-red-500 rounded-full p-1 transition-all
+          hover:bg-red-500 hover:text-white hover:scale-110
+          ${favorite ? "bg-red-500 text-white" : ""}`}
               >
                 <Heart size={20} />
               </button>

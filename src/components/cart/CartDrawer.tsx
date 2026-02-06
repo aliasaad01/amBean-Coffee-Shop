@@ -112,17 +112,18 @@ const CartDrawer = () => {
                 <div className="flex flex-col gap-4">
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-neutral-600 dark:text-neutral-400">
+                      Fee
+                    </span>
+                    <span className="text-lg font-semibold">$5.00</span>
+                  </div>
+
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="text-sm text-neutral-600 dark:text-neutral-400">
                       Total
                     </span>
                     <span className="text-lg font-semibold">
                       ${total.toFixed(2)}
                     </span>
-                  </div>
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-sm text-neutral-600 dark:text-neutral-400">
-                      Fee
-                    </span>
-                    <span className="text-lg font-semibold">$15.00</span>
                   </div>
                 </div>
 

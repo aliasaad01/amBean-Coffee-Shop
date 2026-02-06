@@ -6,7 +6,7 @@ const links = ["home", "shop", "about", "contact"];
 const navLinks = links.map((link, i) => (
   <NavLink
     key={i}
-    to={`/${link !== "home" ? link : "/"}`}
+    to={`/${link !== "home" ? link : ""}`}
     className={"hover:text-amber-700 transition-colors"}
   >
     {link[0].toUpperCase() + link.slice(1)}

@@ -1,7 +1,7 @@
 # 🚀 amBean Coffee Shop
 
 **amBean** is a modern and responsive coffee store designed for a smooth and enjoyable user experience. It features a clean interface, product browsing, cart functionality, a virtual checkout, and dedicated About & Contact pages.
-This project showcases my skills, projects, and experience with a clean UI, smooth animations, and modern design principles.
+This project showcases my skills, and experience with a clean UI, smooth animations, and modern design principles.
 
 ---
 
@@ -60,7 +60,7 @@ amBean/
 │ │ ├─ routes/ # AppRoutes
 │ │ └─ sections/ # Products ...
 │ │
-│ ├─ context/ # CartContext
+│ ├─ context/ # CartContext, ThemeContext
 │ ├─ data/ # Product data
 │ ├─ hooks/ # useTheme
 │ ├─ layouts/ # MainLayout
@@ -91,7 +91,7 @@ npm run dev
 
 **Ali Asaad**
 
-Front-End Developer | React.js
+Front-End Developer | React.js + TypeScript
 
 - GitHub: [https://github.com/aliasaad01](https://github.com/aliasaad01)
 

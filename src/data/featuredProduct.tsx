@@ -8,9 +8,9 @@ export type FeaturedProduct = {
 
 export const featuredProduct: FeaturedProduct = {
   id: "001",
-  name: "Premium Espresso",
+  name: "Mudcake",
   description:
-    "Experience the rich aroma and bold taste of our carefully selected espresso beans.",
-  price: "$6.50",
-  image: "/images/esspresso.png",
+    "Experience the best and most delicious cakes made by expert hands and all love, don't miss this opportunity.",
+  price: "$6.49",
+  image: "/images/mudcake.jpg",
 };

@@ -61,10 +61,12 @@ const AboutValues = () => {
                 hidden: { opacity: 0, y: 30 },
                 show: { opacity: 1, y: 0 },
               }}
-              className="bg-white dark:bg-neutral-900 rounded-2xl p-6 text-center shadow-sm"
+              className="group bg-white dark:bg-neutral-900 rounded-2xl p-6 text-center shadow-md border border-transparent hover:border-amber-700 transition-colors duration-300"
             >
               <item.icon className="mx-auto mb-4 text-amber-700" size={32} />
-              <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
+              <h3 className="font-semibold text-lg mb-2 group-hover:text-amber-700 transition-colors duration-300">
+                {item.title}
+              </h3>
               <p className="text-sm text-neutral-600 dark:text-neutral-400">
                 {item.text}
               </p>

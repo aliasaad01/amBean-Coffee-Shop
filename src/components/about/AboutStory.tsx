@@ -30,7 +30,6 @@ const AboutStory = () => {
 
           <motion.img
             src="/images/about-story.jpg"
-            // src="/images/hero-bg.avif"
             alt="Our Story"
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}

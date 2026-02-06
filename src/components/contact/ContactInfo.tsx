@@ -32,9 +32,9 @@ const ContactInfo = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="flex flex-col items-center text-center p-6 rounded-2xl bg-neutral-50 dark:bg-neutral-900 shadow"
+              className="flex flex-col items-center text-center p-6 rounded-2xl bg-neutral-50 dark:bg-neutral-900 shadow-md border border-transparent hover:border-amber-700 transition-colors duration-300"
             >
-              <item.icon className="h-8 w-8 text-amber-700 dark:text-amber-500 mb-4" />
+              <item.icon className="h-8 w-8 text-amber-700 mb-4" />
               <h3 className="font-semibold text-lg text-neutral-900 dark:text-white">
                 {item.title}
               </h3>

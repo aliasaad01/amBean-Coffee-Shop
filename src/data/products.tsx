@@ -17,15 +17,15 @@ export const homeProducts: Product[] = [
     id: "1",
     name: "Espresso",
     price: "$4.50",
-    image: "/images/esspresso.png",
+    image: "/images/espresso-shot.jpg",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
   {
     id: "2",
-    name: "Cappuccino",
-    price: "$5.00",
-    image: "/images/cappuccino.png",
+    name: "Hot Chocolate",
+    price: "$5.75",
+    image: "/images/hot-chocolate.jpg",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
@@ -33,7 +33,7 @@ export const homeProducts: Product[] = [
     id: "3",
     name: "Latte",
     price: "$5.50",
-    image: "/images/latte.png",
+    image: "/images/latte.jpg",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
@@ -41,7 +41,7 @@ export const homeProducts: Product[] = [
     id: "4",
     name: "Americano",
     price: "$6.00",
-    image: "/images/americano.png",
+    image: "/images/Americano.jpg",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
@@ -52,7 +52,7 @@ export const products: Product[] = [
     id: "5",
     name: "Matcha Latte",
     price: "$5.50",
-    image: "/images/matcha-latte.png",
+    image: "/images/matcha.jpg",
     category: "tea",
     featured: true,
     description:
@@ -62,16 +62,16 @@ export const products: Product[] = [
     id: "9",
     name: "Hot Chocolate",
     price: "$5.75",
-    image: "/images/hot-chocolate.png",
+    image: "/images/hot-chocolate.jpg",
     category: "milk",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
   {
-    id: "2",
-    name: "Cappuccino",
-    price: "$5.00",
-    image: "/images/cappuccino.png",
+    id: "3",
+    name: "Latte",
+    price: "$5.50",
+    image: "/images/latte.jpg",
     category: "coffee",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
@@ -80,18 +80,9 @@ export const products: Product[] = [
     id: "1",
     name: "Espresso Shot",
     price: "$4.50",
-    image: "/images/esspresso.png",
+    image: "public/images/espresso-shot.jpg",
     category: "coffee",
     featured: true,
-    description:
-      "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
-  },
-  {
-    id: "3",
-    name: "Latte",
-    price: "$5.50",
-    image: "/images/latte.png",
-    category: "coffee",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
@@ -99,7 +90,7 @@ export const products: Product[] = [
     id: "4",
     name: "Americano",
     price: "$6.00",
-    image: "/images/americano.png",
+    image: "/images/Americano.jpg",
     category: "coffee",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
@@ -108,7 +99,7 @@ export const products: Product[] = [
     id: "6",
     name: "Chai Latte",
     price: "$6.00",
-    image: "/images/chai-latte.png",
+    image: "/images/chai-latte.jpg",
     category: "tea",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
@@ -117,25 +108,25 @@ export const products: Product[] = [
     id: "7",
     name: "Loose Leaf Tea",
     price: "$4.50",
-    image: "/images/tea.png",
+    image: "/images/loose-leaf-tea.jpg",
     category: "tea",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
   {
     id: "8",
-    name: "Drip Coffee",
+    name: "Ice Latte Hazelnut",
     price: "$3.75",
-    image: "/images/drip-coffee.png",
+    image: "/images/ice-latte-hazelnut.JPG",
     category: "coffee",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
   {
     id: "10",
-    name: "Cortado",
+    name: "Ice Latte Varamel",
     price: "$5.25",
-    image: "/images/cortado.png",
+    image: "/images/ice-latte-caramel.JPG",
     category: "coffee",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
@@ -144,7 +135,7 @@ export const products: Product[] = [
     id: "11",
     name: "Blueberry Muffin",
     price: "$5.49",
-    image: "/images/blueberry-muffin.png",
+    image: "/images/blueberry-muffin.jpg",
     category: "muffin",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
@@ -153,35 +144,35 @@ export const products: Product[] = [
     id: "12",
     name: "Chocolate Muffin",
     price: "$5.49",
-    image: "/images/chocolate-muffin.png",
+    image: "/images/chocolate-muffin.jpg",
     category: "muffin",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
   {
     id: "13",
-    name: "Seasonal Muffin",
+    name: "Vanilla Muffin",
     price: "$5.49",
-    image: "/images/seasonal-muffin.png",
+    image: "/images/vanilla-muffin.jpg",
     category: "muffin",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
   {
     id: "14",
-    name: "Crumb Cake",
+    name: "Mudcake",
     price: "$6.49",
-    image: "/images/crumb-cake.png",
+    image: "/images/mudcake.jpg",
     category: "muffin",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },
   {
     id: "15",
-    name: "Dubai Chocolate",
+    name: "Blueberry Pie",
     price: "$2.50",
-    image: "/images/dubai-chocolate-bar.png",
-    category: "milk",
+    image: "/images/blueberry-pie.jpg",
+    category: "muffin",
     description:
       "This is one of the most delicious drinks ever, Try your favorite drink now, Welcome in your second home.",
   },

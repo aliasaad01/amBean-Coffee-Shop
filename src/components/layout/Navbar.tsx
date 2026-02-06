@@ -48,7 +48,7 @@ const Navbar = () => {
             ))}
           </nav>
 
-          {/* Right actions (always visible) */}
+          {/* Right actions */}
           <div className="flex items-center gap-3">
             {/* Theme */}
             <button
